@@ -18,7 +18,14 @@ body {
 
  */
 
-
+img {
+    max-width: 100%;
+}
+.center-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
 h1 {
     color: white;
     margin: 0;
@@ -36,4 +43,22 @@ h1 {
     background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 52%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 52%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-bottom: 1px solid grey;
+}
+
+#header-img{
+    position: relative;
+}
+#header-img img {
+    width: 100%;
+
+}
+
+.slogan {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+    text-align: right;
+    position: absolute;
+    bottom: 2em;
+    right: 0;
 }
